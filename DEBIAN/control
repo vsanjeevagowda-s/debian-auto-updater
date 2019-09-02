@@ -1,0 +1,5 @@
+Package: deb-auto-update
+Version: 1.0.0
+Architecture: all
+Maintainer: Edgeplayer Team <edgeplayer@edgeplayer.com>
+Description: Edgeplayer iot application manager
