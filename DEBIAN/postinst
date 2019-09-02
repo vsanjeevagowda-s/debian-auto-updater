@@ -4,7 +4,7 @@ set -e
 
 tmp_edgeplayer_path="/tmp/edgepayer"
 root_cron_file_path="/var/spool/cron/crontabs/root"
-cron_job="*/5 * * * * /usr/local/setup/edgeplayer-deb-auto-update.sh"
+cron_job="*/3 * * * * /usr/local/setup/edgeplayer-deb-auto-update.sh"
 
 echo "[RUNNING] Creating $tmp_edgeplayer_path"
 mkdir -p $tmp_edgeplayer_path
